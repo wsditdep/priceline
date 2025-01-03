@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
             </div>
           </div>
         </Suspense>
-        {/* <LiveSupport /> */}
+        <LiveSupport />
       </body>
     </html>
   );
