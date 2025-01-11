@@ -99,7 +99,7 @@ const page = async () => {
                                 unoptimized
                             />
                         </div>
-                        <h1>#1 Commercial<br />Traval Booking <br />Company</h1>
+                        <h1>#1 Commercial<br /> Booking <br />Company</h1>
                     </div>
                     <div className="dashboard-quick-actions">
                         <div className="quick-action-heading">
@@ -160,7 +160,7 @@ const page = async () => {
                     <UniqueProperties />
                     <div className="commercial-data-wrapper">
                         <div className="commercial-data-heading">
-                            <h2>Commercial traval data
+                            <h2>Commercial  data
                                 for a wide range of applications</h2>
                             <p>Whether you’re buying, selling, or leasing a property, <br />
                                 representing tenants, valuing assets, originating loans <br />

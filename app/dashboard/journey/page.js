@@ -84,7 +84,7 @@ const page = async () => {
         </section>
         <div className='hotel-lists-wrapper'>
           <div className='hotel-lits-title'>
-            <h2>Explore traval Packages</h2>
+            <h2>Explore travel Packages</h2>
           </div>
           <div className='hotel-info-details'>
             <div className='hotel-info-child'>

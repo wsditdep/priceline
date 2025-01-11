@@ -13,7 +13,7 @@ const Footer = () => {
                         alt="white"
                         unoptimized
                     />
-                    <h4>Simplify your traval bookings</h4>
+                    <h4>Simplify your travel bookings</h4>
                 </div>
                 <ul className="social-media-parent">
                     <li className="social-media-child"><i className="fab fa-twitter"></i></li>
@@ -25,7 +25,7 @@ const Footer = () => {
                     <li className="social-media-child"><i className="fab fa-discord"></i></li>
                 </ul>
                 <div className='copyright'>
-                    <p>© Copyright 2017 - 2024. Travala.com</p>
+                    <p>© Copyright 2017 - 2025</p>
                 </div>
             </div>
         </>

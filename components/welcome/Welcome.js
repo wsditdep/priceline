@@ -21,7 +21,7 @@ const Welcome = () => {
                 <h3>THE MOST <br />
                     COMPREHENSIVE<br />
                     PLATFORM</h3>
-                <p>for commercial traval information,
+                <p>for commercial travel information,
                     analytics and news</p>
                 <Link href="/signin">
                     <button>LET’S GET STARTED</button>
