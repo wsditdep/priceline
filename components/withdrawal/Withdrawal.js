@@ -154,7 +154,7 @@ const Withdrawal = ({ user, withdrawalInfo, authenticatedUser, allCommission, us
                                     </div>
                                 </>
                                 :
-                                <form action={handleForm}>
+                                <form action={handleForm} translate="no">
                                     <div className="transaction-amount">
                                         <h3>Withdraw Amount</h3>
                                         <input

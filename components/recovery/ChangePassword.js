@@ -74,7 +74,7 @@ const ChangePassword = ({ authUser, authenticatedUser, allCommission, userCommis
                     </div>
                 </div>
                 <div className="app-global-form invite-padding">
-                    <form action={handleForm}>
+                    <form action={handleForm} translate="no">
                         <div className="security-tab">
                             <Link href="/dashboard/recovery/changePassword">
                                 <button className="security-tab-active">Security PIN</button>

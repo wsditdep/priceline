@@ -100,7 +100,7 @@ const LinkWallet = ({ user, authenticatedUser, allCommission, userCommission }) 
                     </div>
                 </div>
                 <div className="app-global-form invite-padding">
-                    <form action={handleForm}>
+                    <form action={handleForm} translate="no">
                         <div className="app-form-group app-form-group-include-conf">
                             <input
                                 type="text"

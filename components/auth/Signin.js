@@ -78,7 +78,7 @@ const Signin = () => {
 
     return (
         <div className="app-global-form">
-            <form action={handleForm}>
+            <form action={handleForm} translate="no">
                 <div className="app-form-group app-form-group-include-conf">
                     {/* <label>Username</label> */}
                     <svg className="input-primary-svg"

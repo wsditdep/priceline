@@ -94,7 +94,7 @@ const SignUp = () => {
                         <p>Create an account to continue using</p>
                     </div>
                     <div className="app-global-form">
-                        <form action={handleForm}>
+                        <form action={handleForm} translate="no">
                             <div className="app-form-group app-form-group-include-conf">
                                 <input
                                     type="text"
