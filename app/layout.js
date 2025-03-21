@@ -6,7 +6,7 @@ import "./styles/global.scss";
 import { Toaster } from "react-hot-toast";
 import LiveSupport from '@/components/liveSupport/LiveSupport';
 import favicon from "@/public/favicon.png";
-import Loader from '@/components/loading/Loader';
+import NextTopLoader from 'nextjs-toploader';
 
 export const metadata = {
   title: "Welcome - Priceline",
@@ -33,11 +33,12 @@ export default function RootLayout({ children }) {
             },
           }}
         />
-          <div className="platform-layout-parent">
-            <div className="platform-layout-childs">
-              {children}
-            </div>
+        <div className="platform-layout-parent">
+          <div className="platform-layout-childs">
+            {children}
           </div>
+        </div>
+        <NextTopLoader />
         <LiveSupport />
       </body>
     </html>
