@@ -60,7 +60,7 @@ const SubmitJourney = ({ authUser, authenticatedUser, allCommission, userCommiss
                     setIsNextData(true);
                     setTimeout(() => {
                         window.location.reload();
-                    }, [3000])
+                    }, 3000)
                 } else {
                     setIsSuccess(true);
                     setIsPressed(true);
