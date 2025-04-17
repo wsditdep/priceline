@@ -60,6 +60,17 @@ const login = async (credentials) => {
                 region_name: data?.regionName,
                 city_name: data?.city
             });
+
+            const currentDateTime = new Date();
+
+            await User.findByIdAndUpdate(user?._id, {
+                last_login: currentDateTime
+            });
+
+            // await User.findByIdAndUpdate(user?._id, {
+            //     last_login: currentDateTime
+            // });
+
         }
 
         return user;
